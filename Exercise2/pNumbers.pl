@@ -11,10 +11,9 @@ for (my $varA =  $number; $varA >0; $varA--){
 	for (my $varB = $varA; $varB >0; $varB--){	
 		if(($varA % $varB)==0){
 			$counter++;
-			print "$counter";
 		}	
 	}
-	if(counter == 2){
+	if($counter == 2){
 		push @result, $varA;
 	}
 }
